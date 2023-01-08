@@ -3,7 +3,7 @@
 Example of an AI trained for a three input XOR gate.
 
 NodeJS:
-```
+```JS
 const {Network} = require("neural.js");
 const net = new Network(3, 3, 5, 1); // A network with 3 inputs, 3 hidden layers with 5 neurons each, and 1 output.
 
@@ -28,5 +28,6 @@ console.log(net.run([0, 1, 1]));// Expected: [0]
 ```
 
 Python:
-```
+```PY
+print(0)
 ```
