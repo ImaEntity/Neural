@@ -1,8 +1,8 @@
 # Neural
 
-Example of an AI trained for a three input XOR gate.
+## Example of an AI trained for a three input XOR gate.
 
-NodeJS:
+### NodeJS:
 ```JS
 const {Network} = require("neural.js");
 const net = new Network(3, 3, 5, 1);
@@ -29,7 +29,7 @@ console.log(net.run([0, 1, 1]));
 // Expected: [0]
 ```
 
-Python:
+### Python:
 ```PY
 from neural import Network
 net = Network(3, 3, 5, 1)
@@ -56,7 +56,7 @@ print(net.run([0, 1, 1]))
 # Expected: [0]
 ```
 
-HTML / JavaScript:
+### HTML / JavaScript:
 ```HTML
 <script src = "https://raw.githubusercontent.com/ImaEntity/Neural/2cb5eebe2d4b668def0e2bf9dc2919d24e275cf5/neural-browser.js"></script>
 <script>
@@ -85,14 +85,14 @@ HTML / JavaScript:
 </script>
 ```
 
-Saving as a JSON file:
+## Saving as a JSON file:
 
-NodeJS:
+### NodeJS:
 ```JS
 net.save("FILENAME");
 ```
 
-Python:
+### Python:
 ```PY
 net.save("FILENAME")
 ```
