@@ -84,3 +84,15 @@ HTML / JavaScript:
     // Expected: [0]
 </script>
 ```
+
+Saving as a JSON file:
+
+NodeJS:
+```
+net.save("FILENAME");
+```
+
+Python:
+```
+net.save("FILENAME")
+```
