@@ -123,6 +123,6 @@ net = Network.load("FILENAME")
 ```HTML
 <script src = "https://raw.githubusercontent.com/ImaEntity/Neural/2cb5eebe2d4b668def0e2bf9dc2919d24e275cf5/neural-browser.js"></script>
 <script>
-    const net = Network.load({}); // Load from a JSON object.
+    const net = Network.load(brainObject); // Load from a JSON object.
 </script>
 ```
