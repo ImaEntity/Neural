@@ -88,11 +88,11 @@ HTML / JavaScript:
 Saving as a JSON file:
 
 NodeJS:
-```
+```JS
 net.save("FILENAME");
 ```
 
 Python:
-```
+```PY
 net.save("FILENAME")
 ```
