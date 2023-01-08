@@ -52,6 +52,7 @@ net.train([
 print(net.run([0, 1, 1])) # Expected: [0]
 ```
 
+HTML / JavaScript:
 ```HTML
 <script src = "https://"></script>
 <script>
