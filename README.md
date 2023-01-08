@@ -51,3 +51,29 @@ net.train([
 
 print(net.run([0, 1, 1])) # Expected: [0]
 ```
+
+```HTML
+<script src = "https://"></script>
+<script>
+    const net = new Network(3, 3, 5, 1); // A network with 3 inputs, 3 hidden layers with 5 neurons each, and 1 output.
+
+    net.train([
+        [[0, 0, 0], [0]],
+        [[0, 0, 1], [1]],
+        [[0, 1, 0], [1]],
+        [[0, 1, 1], [0]],
+        [[1, 0, 0], [1]],
+        [[1, 0, 1], [0]],
+        [[1, 1, 0], [0]],
+        [[1, 1, 1], [1]]
+    ], {
+        iterations: 10000,
+        log: true,
+        logInterval: 500,
+        learningRate: 0.02,
+        errorThreshold: 0.03
+    });
+
+    console.log(net.run([0, 1, 1])); // Expected: [0]
+</script>
+```
