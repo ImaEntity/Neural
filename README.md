@@ -89,10 +89,40 @@ print(net.run([0, 1, 1]))
 
 ###### NodeJS:
 ```JS
+const {Network} = require("neural.js");
+const net = new Network(3, 3, 5, 1);
+// A network with 3 inputs, 3 hidden layers with 5 neurons each, and 1 output.
+
 net.save("FILENAME");
 ```
 
 ###### Python:
 ```PY
+from neural import Network
+net = Network(3, 3, 5, 1)
+# A network with 3 inputs, 3 hidden layers with 5 neurons each, and 1 output.
+
 net.save("FILENAME")
+```
+
+### Load from JSON file:
+
+###### NodeJS:
+```JS
+const {Network} = require("neural.js");
+const net = Network.load("FILENAME");
+```
+
+###### Python:
+```PY
+from neural import Network
+net = Network.load("FILENAME")
+```
+
+###### HTML / JavaScript:
+```HTML
+<script src = "https://raw.githubusercontent.com/ImaEntity/Neural/2cb5eebe2d4b668def0e2bf9dc2919d24e275cf5/neural-browser.js"></script>
+<script>
+    const net = Network.load({}); // Load from a JSON object.
+</script>
 ```
