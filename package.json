@@ -1,0 +1,20 @@
+{
+  "name": "@imaentity/neural",
+  "version": "1.0.0",
+  "description": "A terrible attempt at writing an AI library.",
+  "main": "neural.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ImaEntity/Neural.git"
+  },
+  "keywords": [
+    "library",
+    "ai"
+  ],
+  "author": "ImaEntity",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ImaEntity/Neural/issues"
+  },
+  "homepage": "https://github.com/ImaEntity/Neural#readme"
+}
